@@ -1,4 +1,4 @@
-# OpenAI API Client in PHP
+# OpenAI API Client in PHP with Laravel Support
 
 <br />
 

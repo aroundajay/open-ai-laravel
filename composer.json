@@ -1,6 +1,6 @@
 {
     "name": "orhanerday/open-ai",
-    "description": "OpenAI GPT-3 Api Client in PHP",
+    "description": "OpenAI GPT-3 Api Client in PHP with Laravel support",
     "keywords": [
         "orhanerday",
         "open-ai"
@@ -27,6 +27,16 @@
     "autoload": {
         "psr-4": {
             "Orhanerday\\OpenAi\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orhanerday\\OpenAi\\Laravel\\OpenAiServiceProvider"
+            ],
+            "aliases": {
+                "OpenAi": "Orhanerday\\OpenAi\\Laravel\\OpenAiFacade"
+            }
         }
     },
     "autoload-dev": {
