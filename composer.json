@@ -1,16 +1,23 @@
 {
-    "name": "orhanerday/open-ai",
+    "name": "aroundajay/open-ai-laravel",
     "description": "OpenAI GPT-3 Api Client in PHP with Laravel support",
     "keywords": [
         "orhanerday",
-        "open-ai"
+        "open-ai",
+        "aroundajay",
+        "open-ai-laravel"
     ],
-    "homepage": "https://github.com/orhanerday/open-ai",
+    "homepage": "https://github.com/aroundajay/open-ai-laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Orhan Erday",
             "email": "orhanerday@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Ajay Kumar",
+            "email": "ajayrajput712@gmail.com",
             "role": "Developer"
         }
     ],
